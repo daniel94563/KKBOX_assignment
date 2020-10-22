@@ -1,11 +1,11 @@
 # KKBOX_assignment
 KKBOX assignment 
 
-The whole project is mainly developed on colab, but i encountered some issues that made the model trained on colab all go down the drain, so partial of the codes are built on local. (see more details in the notebook)
+The whole project is mainly developed on colab, but i encountered some issues that made the model trained on colab all go down the drain, so a part of the codes are built on local. (see more details in the notebook)
 But it's still executable on Colab, it's okay to clone it to Colab and execute.
 
 Apps:
-The application program, should be cloned to local to execute.
+The application program, should be executed on local. 
 
 Dataset:
 Where the dataset stored.
