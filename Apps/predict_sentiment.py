@@ -14,7 +14,7 @@ ws = WS("../data")
 def sentiment_prediction(txt):
     processed_data=text_preprocess(txt)
     if len(processed_data)==0:
-        raise Exception('Not Chinese or empty value')
+        return('No comments!')
     else:
         
         cuttext=[]

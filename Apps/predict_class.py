@@ -16,7 +16,8 @@ def class_prediction(txt):
     class_dict={0:'無問題',1:'閃退問題',2:'播放問題',3:'帳號問題',4:'其他問題'}
     processed_data=text_preprocess(txt)
     if len(processed_data)==0:
-        raise Exception('Not Chinese or empty value')
+        # raise Exception('Not Chinese or empty value')
+        return('not Chinese')
     else:
         
         cuttext=[]
