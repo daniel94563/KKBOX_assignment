@@ -14,7 +14,7 @@ ws = WS("../data")
 def sentiment_prediction(txt):
     processed_data=text_preprocess(txt)
     if len(processed_data)==0:
-        return('No comments!')
+        return(0)
     else:
         
         cuttext=[]

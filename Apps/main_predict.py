@@ -27,7 +27,7 @@ def fetch_comments(comment_file):
 if __name__=='__main__':
     
 
-    test_data=fetch_comments('KKBOX_comments.csv')    
+    test_data=fetch_comments('KKBOX_comments.csv')
     # for i in range(len(test_data)):
     #     final_prediction=main_prediction(test_data[i])
     #     print('Review: '+test_data[i])
